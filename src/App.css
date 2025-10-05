@@ -1,0 +1,13 @@
+body {
+  background: linear-gradient(to bottom, #1e1e2f, #0e0e1a);
+  color: white;
+  font-family: sans-serif;
+}
+
+.slide {
+  background: #333;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+}

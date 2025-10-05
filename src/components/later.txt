@@ -1,0 +1,12 @@
+
+        <div className="social-links">
+          <a href="https://instagram.com/yourstudio" target="_blank" rel="noreferrer">
+            <img src="/images/Instagram.svg" alt="Instagram" />
+          </a>
+          <a href="https://twitter.com/yourstudio" target="_blank" rel="noreferrer">
+            <img src="/images/twitter1.svg" alt="Twitter" />
+          </a>
+          <a href="https://youtube.com/yourstudio" target="_blank" rel="noreferrer">
+            <img src="/images/youtube1.svg" alt="YouTube" />
+          </a>
+        </div>

@@ -1,0 +1,33 @@
+.header {
+  background-color: #111827;
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.header-content {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.download-button {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.download-button:hover {
+  background-color: #1d4ed8;
+}
