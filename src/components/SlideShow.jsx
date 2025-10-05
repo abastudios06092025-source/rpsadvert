@@ -46,18 +46,21 @@ export default function SlideShow() {
       <div className="slide-card fade">
         <div className="slide-images">
           <div className="slide-side">
-            <img src={`/images/${slide.player}.png`} alt={slide.player} />
+            <img
+            src={process.env.PUBLIC_URL + `/images/${slide.player}.png`}
+            alt={slide.player}
+            />
             <p className="label">Player: {capitalize(slide.player)}</p>
           </div>
 
           <span className="vs-text">VS</span>
 
           <div className="slide-side">
-            <img
-              src={`/images/${slide.opponent}.png`}
-              alt={slide.opponent}
-              className="flipped"
-            />
+          <img
+          src={process.env.PUBLIC_URL + `/images/${slide.opponent}.png`}
+          alt={slide.opponent}
+          className="flipped"
+          git add ./>
             <p className="label">Opponent: {capitalize(slide.opponent)}</p>
           </div>
         </div>
