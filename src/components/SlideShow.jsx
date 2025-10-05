@@ -60,7 +60,7 @@ export default function SlideShow() {
           src={process.env.PUBLIC_URL + `/images/${slide.opponent}.png`}
           alt={slide.opponent}
           className="flipped"
-          git add ./>
+          />
             <p className="label">Opponent: {capitalize(slide.opponent)}</p>
           </div>
         </div>
