@@ -11,9 +11,9 @@ export default function VideoPlayer() {
         width="100%"
         height="auto"
         className="gameplay-video"
-        poster="/images/video-placeholder.png"
+        /*poster="/images/video-placeholder.png"*/
       >
-        <source src="/videos/gameplay.mp4" type="video/mp4" />
+        <source src={process.env.PUBLIC_URL + '/videos/gameplay.mp4'} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
